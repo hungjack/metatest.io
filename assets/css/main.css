@@ -3134,7 +3134,13 @@ input, select, textarea {
 					.carousel article .image {
 						margin-bottom: 2em;
 					}
-		/*Timeline*/	
+		/*Timeline*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+	
 		
 		.timeline {
 			position: relative;
@@ -3316,6 +3322,6 @@ input, select, textarea {
 			  padding: 30px 30px 30px 90px;
 			  border-radius: 500px 0 0 500px;
 			}
-		  }		
+		}		
 
 	}
