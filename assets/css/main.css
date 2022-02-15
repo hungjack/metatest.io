@@ -3135,11 +3135,6 @@ input, select, textarea {
 						margin-bottom: 2em;
 					}
 	    /* roadmap */
-		body {
-			background-color: #000;
-		  
-			overflow-x: hidden;
-		  }
 		  
 		  @font-face {
 			font-family: 'ESL Legend';
